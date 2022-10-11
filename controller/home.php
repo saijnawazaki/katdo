@@ -1,10 +1,12 @@
 <?php
 defined('APP_PATH') OR exit('No direct script access allowed');
 
-class home
+includeFile('controller','core');
+
+class home extends controller
 {
 	public function index()
 	{
-		echo 'Hi';
+		$this->view('home',null,'layout');
 	}
 }

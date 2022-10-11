@@ -1,0 +1,10 @@
+body {
+    background-color: #000;
+}
+.center-content {
+    max-width: 720px;
+    background-color: #fff;
+    color: #000;
+    /* Center horizontally*/
+    margin: 0 auto;
+}
